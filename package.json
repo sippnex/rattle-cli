@@ -1,0 +1,20 @@
+{
+  "name": "rattle-cli",
+  "version": "0.1.0",
+  "description": "The command-line tool for rattle developement",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Julian Sobotka",
+  "license": "Apache 2",
+  "bin": {
+    "rattle": "./index.js"
+  },
+  "dependencies": {
+    "chalk-animation": "^1.6.0",
+    "commander": "^2.15.1",
+    "simple-banner": "^1.0.7",
+    "generate": "file:libs/generate"
+  }
+}
